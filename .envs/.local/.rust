@@ -1,0 +1,14 @@
+# MySQL
+# ------------------------------------------------------------------------------
+MYSQL_HOST=mysql
+MYSQL_PORT=3306
+MYSQL_DATABASE=our-chat
+MYSQL_ROOT_PASSWORD=root
+MYSQL_USER=admin
+MYSQL_PASSWORD=admin
+
+# Rust
+# ------------------------------------------------------------------------------
+SERVER_ADDR=0.0.0.0:8088
+
+DATABASE_URL=mysql://${MYSQL_USER}:${MYSQL_PASSWORD}@${MYSQL_HOST}:${MYSQL_PORT}/${MYSQL_DATABASE}
