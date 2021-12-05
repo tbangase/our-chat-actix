@@ -1,0 +1,23 @@
+[package]
+name = "our-chat"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix = "0.10.0"
+actix-files = "0.5.0"
+actix-rt = "2.5.0"
+actix-web = "3.3.2"
+actix-web-actors = "3.0.0"
+chrono = { version = "0.4.19", features = ["serde"] }
+config = "0.11.0"
+data-encoding = "2.3.2"
+diesel = { version = "1.4.8", features = ["mysql", "numeric", "chrono"] }
+dotenv = "0.15.0"
+env_logger = "0.9.0"
+rand = "0.8.4"
+ring = "0.16.20"
+serde = { version = "1.0.130", features = ["derive"] }
+uuid = { version = "0.8.2", features = ["v4"] }
